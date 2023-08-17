@@ -27,7 +27,4 @@ Contributions to improve and expand CYBERTHERAPY are welcome! Fork the repositor
 ## Feedback and Support
 If you encounter any issues or have suggestions, please create an issue in the repository. For immediate support or crisis assistance, refer to the crisis intervention protocols provided on the website.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 © 2023 CYBERTHERAPY. All rights reserved.

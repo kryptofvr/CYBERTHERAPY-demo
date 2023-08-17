@@ -1,73 +1,75 @@
-/* Reset default styles */
-body, h1, h2, h3, p, ul, li {
-  margin: 0;
-  padding: 0;
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #DDC3A5; 
 }
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+.nav-link {
+  opacity: 0.7;
+}
+
+.nav-link: hover {
+  opacity: 1;
+  background-color: #201E20 !important;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
+  height: 600px;
+  width: 100%;
+  background-image: url("images/ctb-nohands.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Bree Serif', serif;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.container h1, p {
+  color: #201E20;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
+.ct-slogan {
+  font-size: 18px;
 }
 
-.nav-links li {
-  margin-right: 20px;
+header p {
+  font-family: italic;
 }
 
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
+.navbar {
+  background-color: #E0A96D !important;
 }
 
-.burger {
-  display: none;
-  cursor: pointer;
-}
-
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 5px;
-}
-
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.main-header .logo {
-  font-size: 1.5rem;
-}
-
-main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-}
-
-.section {
-  padding: 50px 0;
-}
-
-.section h2 {
-  font-size: 2rem;
+.aboutme-border {
+  margin-top: 20px;
   margin-bottom: 20px;
+  border-bottom: 2px solid #000000;
+}
+
+.whatis-ct {
+  text-align: left;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+
+.whatisct-p {
+  text-align: left;
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+}
+
+.sr-h1  {
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.rule {
+  font-family: "Comic Sans MS";
+  font-size: 18px;
 }
